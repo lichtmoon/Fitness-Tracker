@@ -7,7 +7,7 @@
 }
 
 .app-container{
-  background-color: black;
+  background-image: linear-gradient() url("img/summer\ workout\ equipment.jpg");
   width: 100%;
   min-height: 100dvh;
 }
