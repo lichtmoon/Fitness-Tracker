@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/download (3).jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="app-container">
+      <div class="hidemunakita">
+      <header class="home-heading">
+        <div class="text-heading">
+          <p>Good Day,</p>
+          <h3><span class="name-profile">Licht</span> <i class="fa-solid fa-hand hi-five"></i></h3>
+        </div>
+        
+        <div class="img-profile">
+          <img src="img/leaves.jpg" alt="profile" class="img-profile-icon">
+        </div>
+      </header>
+
+      
+      <section class="home-main-section">
+        <input type="date" class="selected-date">
+
+        <div class="calories-container">
+          <p>Calories</p>
+
+          <div class="calories-content">
+            <div class="outer-circular-progress-calories">
+              <div class="inner-circular-progress-calories">
+                <p class="current-calories-count">0</p>
+                <span class="calories-total">/ 
+                 <span class="calories-total-goal"> 0 </span> kcal
+                 </span>
+              </div>
+            </div>
+
+            <div class="calories-info">
+              <span class="remaining-text">Remaining</span>
+              <div>
+                 <i class="fa-solid fa-fire"></i>
+                 
+                 <span class=""><span class="remaining-calories-count">0</span > kcal</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+        <div class="protein-container">
+          <p>Protein</p>
+
+          <div class="protein-content">
+            <div>
+            <div class="outer-circular-progress-protein">
+              <div class="inner-circular-progress-protein">
+                <p class="current-protein-count">0</p>
+              </div>
+            </div>
+                <div class="protein-goal-div">
+                <span class="remaining-text">Goal</span>
+                <span class="protein-goal">/ <span class="protein-total-goal">0</span> g</span>
+                </div>
+            </div>
+
+            <div class="protein-info">
+              <span class="remaining-text">Remaining</span>
+             
+              <div class="protein-icon-div">
+                   <i class="fa-solid fa-drumstick-bite"></i>
+                 <span><span class="remaining-protein-count">0</span> g</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="carbs_fat-section">
+          <div class="carbs-container">
+
+            <div class="icon-div">
+               <i class="fa-solid fa-bread-slice"></i>
+            </div>
+
+            <div class="carbs-info">
+              <p>Carbs</p>
+
+              <div class="carbs-count-div">
+              <span><span class="current-carbs-count">
+                0
+              </span> g</span>
+              <span> / <span class="carbs-total-goal">0</span> g</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="fat-container ">
+            <div class="icon-div-fat">
+               <i class="fa-solid fa-droplet"></i>
+            </div>
+
+            <div class="fat-info">
+              <p>Fat</p>
+
+              <div class="fat-count-div">
+              <span><span class="current-fat-count">
+              0
+              </span> g</span>
+              <span> / <span class="fat-total-goal">0</span> g</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+
+      <section class="meals-preview-section">
+        <header class="meals-header">
+          <p>Today's Meals</p>
+          <a class="view-all-btn">View all</a>
+        </header>
+
+        <div class="meals-section">
+
+            <div class="meals-container" data-meal="breakfast">
+                
+              <div class="meals-content-div-preview">
+              <div class="img-meals">
+                <img src="img/breakfast.png" alt="">
+              </div>
+
+              <div class="meals-content-preview">
+                
+                <div>
+                <div class="breakfast-category-header">
+                <span class="meal-title">breakfast</span>
+                  </div>
+
+              <div class="total-gram-count-preview">
+                <span class="kcal-total">487.5kcal</span>
+                <span class="protein-total">20.3p</span>
+                <span class="carbs-total">4c</span>
+                <span class="fat-total">4.3f</span>
+                </div>    
+                </div>
+
+                <div>
+                  <span><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+              </div>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="meals-container" data-meal="lunch">
+                
+              <div class="meals-content-div-preview">
+              <div class="img-meals">
+                <img src="img/lunch.png" alt="">
+              </div>
+
+              <div class="meals-content-preview">
+                
+                <div>
+                <div class="breakfast-category-header">
+                <span class="meal-title">Lunch</span>
+                  </div>
+
+              <div class="total-gram-count-preview">
+                <span class="kcal-total">487.5kcal</span>
+                <span class="protein-total">20.3p</span>
+                <span class="carbs-total">4c</span>
+                <span class="fat-total">4.3f</span>
+                </div>    
+                </div>
+
+                <div>
+                  <span><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+              </div>
+
+              </div>
+
+              </div>
+
+
+
+
+           
+
+            <div class="meals-container" data-meal="dinner">
+                
+              <div class="meals-content-div-preview">
+              <div class="img-meals">
+                <img src="img/dinner.png" alt="">
+              </div>
+
+              <div class="meals-content-preview">
+                
+                <div>
+                <div class="breakfast-category-header">
+                <span class="meal-title">Dinner</span>
+                  </div>
+
+              <div class="total-gram-count-preview">
+                <span class="kcal-total">487.5kcal</span>
+                <span class="protein-total">20.3p</span>
+                <span class="carbs-total">4c</span>
+                <span class="fat-total">4.3f</span>
+                </div>    
+                </div>
+
+                <div>
+                  <span><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+              </div>
+
+              </div>
+
+              </div>
+
+
+
+
+            
+
+            <div class="meals-container" data-meal="snacks">
+                
+              <div class="meals-content-div-preview">
+              <div class="img-meals">
+                <img src="img/snacks.png" alt="">
+              </div>
+
+              <div class="meals-content-preview">
+                
+                <div>
+                <div class="breakfast-category-header">
+                <span class="meal-title">Snacks</span>
+                  </div>
+
+              <div class="total-gram-count-preview">
+                <span class="kcal-total">487.5kcal</span>
+                <span class="protein-total">20.3p</span>
+                <span class="carbs-total">4c</span>
+                <span class="fat-total">4.3f</span>
+                </div>    
+                </div>
+
+                <div>
+                  <span><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+              </div>
+
+              </div>
+
+              </div>
+        </div>
+
+
+
+        <!-- Currently Working -->
+
+        <div class="meal-details-page">
+          
+            <button class="back-btn"> <i class="fa-solid fa-arrow-left"></i> Back </button>
+
+            <div class="img-content-category">
+             <div class="img-div">
+              <img src="img/breakfast.png" alt="" class="meal-details-image"></div> 
+            <h2 class="meal-details-title">Breakfast</h2>
+            
+            </div>
+
+            <div class="line"></div>
+
+            <div class="meal-food-list">
+
+                  <div class="meal-container-list">
+
+                  
+              <div class="meals-content-div">
+                    <h2>No meals Added Yet</h2>
+              </div>
+
+              <button class="view-meal-btn"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+
+            </div>
+
+            <div class="line"></div>
+
+            <div class="meal-nutrition-summary">
+
+                 <div class="Nutrition-summary-div-details">
+                <p>Nutrition Total</p>
+
+                <li><span>Calories:</span> <span class="calories-total-details">155 kcal</span></li>
+                <li><span>Protein:</span> <span class="protein-total-details">2 g </span></li>
+                <li><span>Carbs:</span> <span class="carbs-total-details">1.1 g</span></li>
+                <li> <span>Fat: </span><span class="fat-total-details">1.1 g</span></li>
+              </div>
+
+              <button class="add-more">Add more</button>
+              </div>
+         
+
+        </div>
+
+      </section>
+
+
+    
+
+
+
+      <section class="meal-add-modal">
+          
+        <div class="meal-modal-content">
+
+
+            <div class="meal-category-card" data-meal="breakfast">
+
+              <div class="img-meals">
+                <img src="img/breakfast.png" alt="">
+              </div>
+
+              <div class="meals-title">
+                  <i class="fa-solid fa-sun breakfast"></i>
+                <span class="meal-title">Breakfast</span>
+               </div>
+             
+           
+
+              <button class="view-meal-btn"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+
+             <div class="meal-category-card" data-meal="lunch">
+
+              <div class="img-meals">
+                <img src="img/lunch.png" alt="">
+              </div>
+
+              <div class="meals-title">
+                  <i class="fa-solid fa-bowl-food lunch"></i>
+                <span class="meal-title">Lunch</span>
+               </div>
+             
+           
+
+              <button class="view-meal-btn"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+
+             <div class="meal-category-card" data-meal="dinner">
+
+              <div class="img-meals">
+                <img src="img/dinner.png" alt="">
+              </div>
+
+              <div class="meals-title">
+                  <i class="fa-solid fa-utensils dinner"></i>
+                <span class="meal-title">Dinner</span>
+               </div>
+             
+           
+
+              <button class="view-meal-btn"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+
+             <div class="meal-category-card" data-meal="snacks">
+
+              <div class="img-meals">
+                <img src="img/snacks.png" alt="">
+              </div>
+
+              <div class="meals-title">
+                  <i class="fa-solid fa-cookie-bite snacks"></i>
+                <span class="meal-title">Snacks</span>
+               </div>
+             
+           
+
+              <button class="view-meal-btn"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+
+            
+        </div>
+
+
+      </section>
+
+
+      
+         <section class="food-selection-view">
+
+
+          <div class="selection-view-content">
+
+            <div class="selection-view-search-section">
+              <button class="back-btn-food-selection-view">
+                <i class="fa-solid fa-arrow-left back" ></i>
+              </button>
+            
+
+            <div class="food-selection-label">
+              <div class="meal-icon">
+              <p class="selected-meal-title">Breakfast</p>
+              <i class="fa-solid selected-meal-icon"></i>
+              </div>
+              <span>Choose a food to add</span>
+            </div>
+
+            </div>
+
+         
+             </div>
+                <div class="search-div">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Search foods...">
+            </div>
+
+           
+
+          <div class="food-items-div">
+
+               <div class="meal-container">
+
+              <div class="meals-content-div">
+              <div class="img-meals">
+                <img src="img/boiled_egg.png" alt="" class="img">
+              </div>
+
+              <div class="meals-content">
+                <span class="meal-title">Boiled egg</span>
+                <span class="meal-counts"><span class="kcal-count">78 kcal</span> • <span class="protein-count">6.3 g protein</span></span>
+              </div>
+              </div>
+
+              <button class="view-meal-btn"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+          </div>
+      </section>
+      
+
+    <section class="meals-details-section">
+
+           <div class="meals-content-div-details">
+              <div class="meals-img-content">
+              <div class="img-meals-div">
+                <img src="img/boiled_egg.png" alt="" class="meal-detail-img">
+              
+             
+
+              <div class="meals-content-img">
+                <span class="meal-title">Boiled egg</span>
+                <span class="meal-description">Nutrition and serving details</span>
+              </div>
+              </div>
+
+               <span>X</span>
+              </div>
+
+              <div class="serving-size-div">
+                <span>SERVING SIZE</span>
+                <select class="serving-size-select">
+                  <option value="0">serving size</option>
+                  <option value="100">50g (small)</option>
+                  <option value="100">100g</option> 
+                </select>
+              </div>
+
+              <div class="quantity-div">
+                <span>QUANTITY</span>
+
+                <div class="quantity-count-div">
+                  <button class="minus-btn">-</button>
+                  <span class="quantity-count">0</span>
+                  <button class="add-btn">+</button>
+                </div>
+              </div>
+
+              <div class="line"></div>
+
+              <div class="Nutrition-preview-div">
+                <p>Nutrition preview</p>
+
+                <li><span>Calories:</span> <span class="calories-count">155 kcal</span></li>
+                <li><span>Protein:</span> <span class="protein-count-detail">2 g </span></li>
+                <li><span>Carbs:</span> <span class="carbs-count">1.1 g</span></li>
+                <li> <span>Fat: </span><span class="fat-count">1.1 g</span></li>
+              </div>
+
+              <button class="add-to-breakfast">Add to MealCategories</button>
+              </div>
+      </section>
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+<!-- end of hidemunakita --></div>
+
+     <!--  end of hidemunakita / dulo ng hide muna kita  -->
+
+
+
+        <section class="bottom-nav">
+        <button class="home-nav">
+          <span><i class="fa-solid fa-house"></i></span>
+          <small>Home</small>
+        </button>
+
+          <button class="diary-nav">
+          <span><i class="fa-solid fa-file-lines"></i></span>
+          <small>Diary</small>
+        </button>
+
+          <button class="add-meal-btn">
+          <span><i class="fa-solid fa-plus"></i></span>
+          </button>
+
+           <button class="progress-nav">
+          <span><i class="fa-solid fa-chart-line"></i></span>
+          <small>Progress</small>
+        </button>
+
+          <button class="profile-nav">
+      <span><i class="fa-solid fa-user"></i></span>
+      <small>Profile</small>
+    </button>
+          
+
+      </section>
+
+
+
+
+
+
+     
+
+      <main class="diary-page">
+        <header class="diary-page-header">
+          <div class="diary-header">
+            <h2>Food Diary</h2>
+            <span>Daily nutrition summary</span>
+          </div>
+
+          <i class="fa-solid fa-calendar-days"></i>
+        </header>
+
+        <section class="diary-progress-container">
+            <div class="diary-progress-container-header">
+              <div class="date-span">
+                <p class="date-display">November 6, 2026</p>
+
+                <div class="date-btn-div">
+                 <button class="date-btn"><i class="fa-solid fa-chevron-down"></i></button>
+                 <input type="date" class="date-picker">
+                 </div>
+              </div>
+
+              <div class="div-span">
+                <span>Daily nutrition summary</span>
+                <span>Daily goals</span>
+              </div>
+            </div>
+
+            <section class="category-card"
+            >
+
+            <div class="nutrition-progress-card">
+                <div class="nutrition-progress-card-content">
+                  <p>Calories</p>
+                  <h3 class="diary-calories-count">1,420 </h3>
+                  <p>of <span class="diary-calories-goal">2,500 </span> kcal</p>
+
+                  <div class="inner-progress-bar inner-progress-bar-calories">
+                    <div class="outer-progress-bar outer-progress-bar-calories">
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+             <div class="nutrition-progress-card">
+                <div class="nutrition-progress-card-content">
+                  <p>Protein</p>
+                  <h3 class="diary-protein-count">10 </h3>
+                  <p>of <span class="diary-protein-goal">150 </span> g</p>
+
+                  <div class="inner-progress-bar inner-progress-bar-protein">
+                    <div class="outer-progress-bar outer-progress-bar-protein">
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            </section>
+
+        </section>
+
+
+
+        <section class="diary-page-category-section">
+            <div class="diary-page-category-section-header">
+              <p>Meals</p>
+              <span class="categories">4 <small>categories</small></span>
+            </div>
+
+
+            <section class="diary-page-category-content">
+
+            <div class="diary-page-category-container" data-meal="breakfast">
+              <div class="diary-page-category-container-content">
+
+                <div class="diary-food-entry">
+              <h3 class="diary-page-title">Breakfast</h3>
+              <div class="time-div">
+                <span class="current-time">8:30 AM</span>
+                 <button class="time-btn"><i class="fa-solid fa-chevron-down"></i></button>
+              </div>
+                </div>
+
+
+                <div class="diary-meal-list">
+
+                   
+                  <div class="diary-food-entry-container">
+             
+                </div>
+
+                </div>
+
+                <div class="diary-meal-total">
+                  <p>Meal Total:</p>
+
+                  <div class="nutrition-total">
+                    <span class="calories-total">0 kcal • </span>
+                    <span class="protein-total">0 g protein • </span>
+                    <span class="carbs-total">0 g carbs </span>
+                    <span class="fat-total">0 g fat </span>
+                  </div>
+                </div>
+
+               </div>
+            </div>
+
+
+
+                <div class="diary-page-category-container" data-meal="lunch">
+              <div class="diary-page-category-container-content">
+
+                <div class="diary-food-entry">
+              <h3 class="diary-page-title">Lunch</h3>
+              <div class="time-div">
+                <span class="current-time">12:00 PM</span>
+                 <button class="time-btn"><i class="fa-solid fa-chevron-down"></i></button>
+              </div>
+                </div>
+
+
+                <div class="diary-meal-list">
+
+                
+                   
+                   
+                  <div class="diary-food-entry-container">
+             
+                </div>
+
+
+                </div>
+
+                <div class="diary-meal-total">
+                  <p>Meal Total:</p>
+
+                  <div class="nutrition-total">
+                    <span class="calories-total">166 kcal • </span>
+                    <span class="protein-total">110g protein • </span>
+                    <span class="carbs-total">12.6g carbs </span>
+                    <span class="fat-total">10.6g fat </span>
+                  </div>
+                </div>
+
+               </div>
+            </div>
+
+
+
+             <div class="diary-page-category-container" data-meal="dinner">
+              <div class="diary-page-category-container-content">
+
+                <div class="diary-food-entry">
+              <h3 class="diary-page-title">Dinner</h3>
+              <div class="time-div">
+                <span class="current-time">7:00 PM</span>
+                 <button class="time-btn"><i class="fa-solid fa-chevron-down"></i></button>
+              </div>
+                </div>
+
+
+                <div class="diary-meal-list">
+
+                  <div class="diary-food-entry-container">
+            
+                </div>
+
+                </div>
+
+                <div class="diary-meal-total">
+                  <p>Meal Total:</p>
+
+                  <div class="nutrition-total">
+                    <span class="calories-total">166 kcal • </span>
+                    <span class="protein-total">110g protein • </span>
+                    <span class="carbs-total">12.6g carbs </span>
+                    <span class="fat-total">10.6g fat </span>
+                  </div>
+                </div>
+
+               </div>
+            </div>
+
+
+
+             <div class="diary-page-category-container" data-meal="snacks">
+              <div class="diary-page-category-container-content">
+
+                <div class="diary-food-entry">
+              <h3 class="diary-page-title">Snacks</h3>
+              <div class="time-div">
+                <span class="current-time">3:00 PM</span>
+                 <button class="time-btn"><i class="fa-solid fa-chevron-down"></i></button>
+              </div>
+                </div>
+
+
+                <div class="diary-meal-list">
+
+                   
+                  <div class="diary-food-entry-container">
+             
+                </div>
+
+                </div>
+
+                <div class="diary-meal-total">
+                  <p>Meal Total:</p>
+
+                  <div class="nutrition-total">
+                    <span class="calories-total">0 kcal • </span>
+                    <span class="protein-total">0 g protein • </span>
+                    <span class="carbs-total">0 g carbs </span>
+                    <span class="fat-total">0 g fat </span>
+                  </div>
+                </div>
+
+               </div>
+            </div>
+
+            
+            </section>
+            
+
+        </section>
+
+
+
+
+      </main>
+
+      
+     
+
+
+
+
+      <section class="progress-page">
+        <header class="progress-page-header">
+          <div>
+            <h2>Progress</h2>
+            <i class="fa-solid fa-chart-line"></i>
+            </div>
+           <span>Track your nutrition journey</span>
+        </header>
+
+        <div class="time-period-progress-page">
+          <div class="time-period-progress-content">
+            <p>Time period</p>
+            <div class="btn-progress-container">
+              <button class="">Week</button>
+                <button class="active">Month</button>
+                  <button>Year</button>
+            </div>
+
+            <div class="navigation-date-container">
+              <button data-direction="previous"><</button>
+            <span>November 9 - November 15, 2026</span>
+            <button data-direction="next">></button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="nutrition-overview-progress-page">
+          <header class="nutrition-overview-progress-header">
+            <p>Nutrition Overview</p>
+          </header>
+
+         
+  <div class="progress-scrollable-content">
+
+          <div class="nutrition-progress-section">
+
+            <div class="nutrition-progress-container">
+              <div class="nutrition-progress-container-content">
+              <div class="nutrition-progress-calories"> 
+               
+                <p> <i class="fa-solid fa-fire calories-icon"></i> Calories</p>
+
+              </div>
+
+              <div class="calories-column">
+                <p class="daily-average-calories">1,850</p>
+                <span>Average kcal / <span>period</span></span>
+                <span>Goal: <span>2,500 kcal</span></span>
+              </div>
+            </div>
+            </div>
+
+             <div class="nutrition-progress-container">
+              <div class="nutrition-progress-container-content">
+              <div class="nutrition-progress-calories"> 
+                <p><i class="fa-solid fa-drumstick-bite protein-icon" ></i> Protein</p>
+              </div>
+
+              <div class="calories-column">
+                <p class="daily-average-protein">56</p>
+                <span>Average g / <span>period</span></span>
+                <span>Goal: <span class="protein-goal">150 g</span></span>
+              </div> 
+            </div>
+            </div>
+
+            </div>
+
+
+
+       
+
+           <div class="calories-trend-progress-page">
+              <header class="calories-trend-header">
+                <p>Calories Trend</p>
+                <span>Your daily calorie intake over the selected period</span>
+              </header>
+
+              <div class="calories-trend-progress-container">
+
+                <div class="calories-average-header">
+                  <p class="average-weekly-total">1,850 kcal</p>
+                  <span>weekly average</span>
+                </div>
+
+                <div class="calories-bar-container">
+                  <div class="calories-bar-item">
+                    <div class="calories-bar-background">
+                    <div class="calories-bar"></div>
+                    </div>
+                    <span>Mon</span>
+                  </div>
+                
+                  <div class="calories-bar-item">
+                    <div class="calories-bar-background">
+                    <div class="calories-bar"></div>
+                    </div>
+                    <span>Tue</span>
+                  </div>
+
+                    <div class="calories-bar-item">
+                      <div class="calories-bar-background">
+                    <div class="calories-bar"></div>
+                    </div>
+                    <span>Wed</span>
+                  </div>
+
+                    <div class="calories-bar-item">
+                      <div class="calories-bar-background">
+                    <div class="calories-bar"></div>
+                      </div>
+                    <span>Thu</span>
+                  </div>
+
+                    <div class="calories-bar-item">
+                      <div class="calories-bar-background">
+                    <div class="calories-bar"></div>
+                      </div>
+                    <span>Fri</span>
+                  </div>
+
+                    <div class="calories-bar-item">
+                      <div class="calories-bar-background">
+                    <div class="calories-bar"></div>
+                     </div>
+                    <span>Sat</span>
+                  </div>
+
+                    <div class="calories-bar-item">
+                      <div class="calories-bar-background">
+                    <div class="calories-bar"></div>
+                    </div>
+                    <span>Sun</span>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+            </div>
+
+
+            <div class="protein-trend-progress-page">
+              <header class="protein-trend-header">
+                <p>Protein Trend</p>
+                <span>Your daily protein intake over the selected period</span>
+              </header>
+
+              <div class="protein-trend-progress-container">
+
+                
+                <div class="protein-average-header">
+                  <p class="average-weekly-protein-total"> 100 g • Protein</p>
+                  <span>weekly average</span>
+                </div>
+
+                <svg width=100% height=200 viewBox="0 0 300 200" >
+                  <circle  cx="10" cy="100" fill="#8175ED"></circle>
+                   <polyline points="10,100 55,70 100,40 145,90 190,20 235,60 280,80" fill="none" stroke="#8175ED" stroke-width="3"></polyline>
+
+                   <text x="10" y="185" fill="#8175ED" text-anchor="middle">Mon</text>
+
+
+                    <text x="63" y="185" fill="#8175ED" text-anchor="middle">Tue</text>
+                    
+
+                    <text x="107" y="185" fill="#8175ED" text-anchor="middle">Wed</text>
+                   
+
+                    <text x="150" y="185" fill="#8175ED" text-anchor="middle">Thu</text>
+                    
+
+                    <text x="193" y="185" fill="#8175ED" text-anchor="middle">Fri</text>
+
+                    <text x="237" y="185" fill="#8175ED" text-anchor="middle">Sat</text>
+                   
+
+                    <text x="280" y="185" fill="#8175ED" text-anchor="middle">Sun</text>
+                  
+                
+
+                </svg>
+               <!--  <div class="protein-average-header">
+                  <p>1000 g</p>
+                  <span>weekly average</span>
+                </div>
+
+                  <div class="protein-line-container">
+
+                    <div class="protein-line-item">
+                      <div class="protein-line"></div>
+                        <span>Mon</span>
+                    </div>
+
+                    <div class="protein-line-item">
+                      <div class="protein-line"></div>
+                        <span>Tue</span>
+                      
+                    </div>
+
+                    <div class="protein-line-item">
+                      <div class="protein-line"> </div>
+                        <span>Wed</span>
+                     
+                    </div>
+
+                    <div class="protein-line-item">
+                      <div class="protein-line"></div>
+                        <span>Thu</span>
+                      
+                    </div>
+
+                    <div class="protein-line-item">
+                      <div class="protein-line"></div>
+                        <span>Fri</span>
+                      
+                    </div>
+
+                    <div class="protein-line-item">
+                      <div class="protein-line">  </div>
+                        <span>Sat</span>
+                    
+                    </div>
+
+                    <div class="protein-line-item">
+                      <div class="protein-line"></div>
+                        <span>Sun</span>
+                      
+                    </div>
+
+                  </div>swd
+ -->
+              </div>
+            </div>
+
+
+            <div class="goal-consistency-progress-page">
+                <header class="goal-consistency-header">
+                  <p>Goal Consistency</p>
+                  <span>Your weekly goal achievements</span>
+                </header>
+
+                <div class="goal-consistency-container">
+
+                    <div class="protein-goal-consistency">
+
+                      <div class="protein-goal-header">
+                        <p>Protein Goal</p>
+                        <span class="protein-counter">0 / 7 days</span>
+                      </div>
+
+                       <div 
+                      class="outer-protein-goal-progress-bar">   
+                      <div class="inner-protein-goal-progress-bar">
+                      </div>
+                      </div>
+
+                      <div class="protein-goal-description">
+                        <span>You reached your protein goal on <span class="numberFinishProtein">0</span> days this week</span>
+                      </div>
+                    </div>
+                 
+
+                    <div class="calories-goal-consistency">
+
+                      <div class="calories-goal-header">
+                      
+                          <p >Calorie Goal</p>
+                          <span class="calories-counter">0 / 7 days</span>   
+                    </div>
+
+                      <div class="outer-calories-goal-progress-bar">
+                        <div class="inner-calories-goal-progress-bar">
+                          </div>
+                        </div>
+
+                        <div class="calories-goal-description">
+                          <span>You reached your calorie goal ons <span class="number-finish-calories">0</span>  days this week</span>
+                        </div>
+                      
+                    </div>
+                  </div>
+
+                </div>
+
+
+
+
+
+
+
+
+                
+
+ </div>
+            </div>
+
+
+      
+
+      </section>
+
+
+ 
+
+
+
+  <section class="profile-page">
+        <header class="profile-header">
+          <div class="profile-avatar">
+            <img src="img/leaves-removebg-preview.png" alt="" class="user-profile-image">
+          </div>
+
+          <div class="profile-user-info">
+              <h2 class="profile-username">User Name</h2>
+              <span>Fitness Enthusiast</span>
+          </div>
+
+          <button class="edit-profile-btn">Edit</button>
+
+        </header>
+
+
+        <section class="personal-information">
+          <h3>Personal Information</h3>
+
+          <div class="profile-info-container">
+            <div class="profile-info-item">
+              <span>Age :</span>
+              <p class="age-personal-info">--</p>
+            </div>
+
+            <div class="profile-info-item">
+              <span>Height :</span>
+              <p class="height-personal-info">--</p>
+            </div>
+
+            <div class="profile-info-item">
+              <span>Weight :</span>
+              <p class="weight-personal-info">--</p>
+
+            </div>
+          </div>
+        </section>
+
+
+        <section class="fitness-goal-section">
+          <h3>Fitness Goal</h3>
+
+          <div class="fitness-goal-container">
+            <div class="fitness-goal-item">
+              <span>Current Goal : </span>
+              <p class="fitness-goal-info">Maintain Weight</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="nutrition-goals-section">
+          <h3>Daily Nutrition Goals</h3>
+
+          <div class="nutrition-goal-container">
+
+            <div>
+            <div class="calorie-goal-setting">
+              <span>Daily Calories</span>
+              <p class="calories-goal-profile">2500 kcal</p>
+            </div>
+
+            <div class="protein-goal-setting">
+              <span>Daily Protein</span>
+              <p class="protein-goal-profile">150 g</p>
+            </div>
+            </div>
+
+              <div class="edit-nutrition-btn-div">
+                    <button class="edit-btn-nutrition-goal">Edit</button>
+              </div>
+          </div>
+
+         
+        </section>
+
+        <section class="profile-preferences">
+          <h3>Preferences</h3>
+
+          <div class="measurement-unit">
+            <span>Measure Units</span>
+            <p>Metric (kg / cm)</p>
+          </div>
+          
+        </section>
+
+        
+          <div class="edit-profile-modal">
+            <div class="edit-profile-content">
+              <p>Edit Profile</p>
+
+              <div class="edit-profile-change-img">
+                <div class="img-border">
+                <img src="img/leaves-removebg-preview.png" alt="" class="changeImage">
+                </div>
+                <div class="profile-text-btn">
+                  <p>Change Profile Picture</p>
+                  <button class="choose-btn">Choose a photo from your device</button>
+                  <input type="file" accept="image/*" class="choose-file-profile">
+                </div>
+              </div>
+
+                <div class="username-content">
+                  <label for="username-input">Username</label>
+                  <input type="text" id=
+                  "username-input" class="change-username">
+                </div>
+            </div>
+                <div class="btn-div">
+                  <button class="cancel-btn-profile">Cancel</button>
+                  <button class="save-btn-profile">Save Changes</button>
+                </div>
+          </div>
+
+          <div class="edit-nutrition-goals-modal">
+            <div class="edit-nutrition-goals-content">
+              <h3>Edit Nutrition Goals</h3>
+
+              <div class="calories-goal-div-profile">
+              <label for="calories-input">Daily Calories</label>
+              <span><span class="change-calories">2500</span> kcal</span>
+              <input type="number" class="changeCaloriesGoalInput" id="calories-input">
+              </div>
+
+              <div class="protein-goal-div-profile">
+              <label for="protein">Daily Protein</label>
+              <span><span class="change-protein">1500 </span> g • Protein
+                 </span>
+              <input type="number" class="changeProteinGoalInput" id="protein">
+              </div>
+
+              <div class="nutrition-goals-div-btn">
+                <button class="cancel-nutrition-goals-btn">Cancel</button>
+                <button class="save-nutrition-goals-btn">Save Changes</button>
+              </div>
+            </div>
+          </div>
+
+
+
+      </section>
+
+
+
+
+      <main class="onboarding-container">
+
+      <section class="get-started-page">
+
+          <div class="home-section-logo">
+            <div class="logo-img">
+              <img src="img/leaves-removebg-preview.png" alt="">
+            </div>
+            <h2>Nutri<span class="track">Track</span></h2>
+            <span>Better Food. Better You.</span>
+          </div>
+
+
+          <div class="desctription">
+            <span>track your calories, protein and</span>
+            <span>build healthy habits for a stronger,</span>
+            <span>healthier you.</span>
+          </div>
+          
+          <div class="btn-get-started-div">
+          <button class="btn-get-started">Get Started</button>
+          </div>
+
+        
+          <a class="link-to-dashboard">Already set up? Go to Dashboard</a>
+      </section>
+
+      <section class="personal-information-page">
+        <header class="nutrition-goals-header">
+              <div class="info-back-btn-div">
+              <button class="setup-back-btn"><</button>
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+
+            <p>STEP <span>1</span> OF 3</p>
+          </header>
+
+          <div class="nitrition-goals-sub-header">
+           <p>Setup your bio</p>
+              <span>Let's get to know you better so we can personalize your nutrition tracking experience.
+
+</span>
+          </div>
+
+          <div class="setup-section">
+            <div class="set-up-item">
+             <span>My Name</span>
+            <input type="text" required placeholder="name / username..." id="input-name">
+            </div>
+
+            <div class="set-up-item">
+              <span>My age</span>
+            <input type="number" required placeholder="age..." id="input-age" class="input-age-profile">
+            </div>
+
+            <div class="set-up-item">
+              <span>My height in cm</span>
+            <input type="number" required placeholder="height in cm..." id="input-height" class="input-height-profile">
+            </div>
+
+            <div class="set-up-item">
+              <span>My weight in kg</span>
+            <input type="number" required placeholder="weight in kg..." id="input-weight" class="input-weight-profile">
+            </div>    
+
+          </div>
+
+          <div class="img-design">
+            <img src="img/leaves-removebg-preview.png" alt="" class="left">
+             <img src="img/leaves-removebg-preview.png" alt="" class="right">
+          </div>
+
+           <div class="setup-continue-btn-div">
+            <button class="setup-continue-btn">Continue</button>
+            </div>
+      </section>
+      
+      <section class="fitness-goal-page">
+          <header class="nutrition-goals-header">
+              <div class="info-back-btn-div">
+              <button class="fitness-back-btn"><</button>
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+
+            <p>STEP <span>2</span> OF 3</p>
+          </header>
+
+          <div class="nitrition-goals-sub-header">
+             <p>Set your Fitness goals</p>
+            <span>Adjust your suggested fitness targets.</span>
+          </div>
+
+          <div class="fitness-goal-section">
+
+              <div class="fitness-goal-card">
+                <div class="fitness-goal-item">
+                  <div class="fitness-icon">
+                    <i class="fa-solid fa-fire"></i>
+                    <div class="fitness-goal-text">
+                      <span>Lose Weight</span>
+                      <small>Burn fat at a steady, healthy pace</small>
+                    </div>
+
+                  </div>
+                    <input type="radio" name="goal" value="Lose-Weight">
+              
+                </div>
+              </div>
+
+                 <div class="fitness-goal-card">
+                <div class="fitness-goal-item">
+                  <div class="fitness-icon fitness-icon-2">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <div class="fitness-goal-text">
+                      <span>Maintain Weight</span>
+                      <small>Stay where you are and eat balanced</small>
+                    </div>
+
+                  </div>
+                    <input type="radio" name="goal" value="Maintain-Weight">
+              
+                </div>
+              </div>
+
+              <div class="fitness-goal-card">
+                <div class="fitness-goal-item">
+                  <div class="fitness-icon fitness-icon-3">
+                    <i class="fa-solid fa-drumstick-bite"></i>
+                    <div class="fitness-goal-text">
+                      <span>Build Muscle</span>
+                      <small>Gain lean mass with more protein</small>
+                    </div>
+
+                  </div>
+                    <input type="radio" name="goal" value="Build-Muscle">
+              
+                </div>
+              </div>
+
+               <div class="fitness-goal-card">
+                <div class="fitness-goal-item">
+                  <div class="fitness-icon fitness-icon-4">
+                    <i class="fa-solid fa-carrot"></i>
+                    <div class="fitness-goal-text">
+                      <span>Eat healthier</span>
+                      <small>Better choices, less strict counting</small>
+                    </div>
+
+                  </div>
+                    <input type="radio" name="goal" value="Eat-healthier">
+              
+                </div>
+              </div>
+
+          </div>
+
+           <div class="img-design">
+            <img src="img/leaves-removebg-preview.png" alt="" class="left">
+             <img src="img/leaves-removebg-preview.png" alt="" class="right">
+          </div>
+          
+           <div class="fitness-next-btn-div">
+              <button class="fitness-next-btn">Continue</button>
+                </div>
+
+      </section>
+
+      <section class="nutrition-goals-page">
+          <header class="nutrition-goals-header">
+              <div class="info-back-btn-div">
+              <button class="nutrition-back-btn"><</button>
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+
+            <p>STEP <span>3</span> OF 3</p>
+          </header>
+
+          <div class="nitrition-goals-sub-header">
+            <p>Set your nutrition goals</p>
+            <span>Adjust your suggested daily targets.</span>
+          </div>
+
+          <div class="nutrition-goals-container-section">
+              <div class="nutrition-goals-container">
+                <div class="nutrition-goal-flex">
+                   <i class="fa-solid fa-fire"></i>
+                   <p>Daily Calories</p>
+                </div>
+                <div class="nutrition-goal-flex">
+                  <input type="number" id="calorie-goal-input">
+                  <span>kcal</span>
+                </div>
+                <small>Suggested daily calorie target</small>
+              </div>
+          </div>
+
+          <div class="nutrition-goals-container-section">
+              <div class="nutrition-goals-container">
+                <div class="nutrition-flex">
+                   <i class="fa-solid fa-drumstick-bite "></i>
+                   <p>Daily Protein</p>
+                </div>
+                <div class="nutrition-goal-flex">
+                  <input type="number" id="protein-goal-input">
+                  <span>g</span>
+                </div>
+                <small>Suggested daily protein target</small>
+              </div>
+          </div>
+
+           <div class="img-design">
+            <img src="img/leaves-removebg-preview.png" alt="" class="left">
+             <img src="img/leaves-removebg-preview.png" alt="" class="right">
+          </div>
+
+          <div class="btn-setup-finish-div">
+            <button class="btn-setup-finish">Finish Setup</button>
+          </div>
+
+
+      </section>
+
+      </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
