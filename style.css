@@ -7,9 +7,15 @@
 }
 
 .app-container{
-  background-image: linear-gradient() url("img/summer\ workout\ equipment.jpg");
+ 
   width: 100%;
   min-height: 100dvh;
+  background-image: linear-gradient(
+    rgba(5, 5, 5, 0.3), rgba(0, 0, 0, 0.991)), 
+    url("img/summer\ workout\ equipment.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .home-heading{
